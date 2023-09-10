@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file -->
+    <title>UG REGULATION 2021</title>
+</head>
+<body>
+    <header>
+        <h1>E-Learning Platform</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+            <li><a href="departments.html">Departments</a></li> <!-- Link to Departments page -->
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h2>UG REGULATION 2021</h2>
+        
+        
+        <!-- Department 1 Content -->
+        <div class="course">
+            <h2>Computer Science & Business Systems</h2>
+            <p>Explore computer programming, algorithms, and business systems.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+        
+        <!-- Department 2 Content -->
+        <div class="course">
+            <h2>Electrical and Electronics Engineering</h2>
+            <p>Learn about electrical circuits, power systems, and renewable energy.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+        
+         <!-- Department 3 Content -->
+         <div class="course">
+            <h2> Computer Science Engineering</h2>
+            <p>Learn about electrical circuits, power systems, and renewable energy.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+
+         <!-- Department 4 Content -->
+         <div class="course">
+            <h2>Aritificial Intelligence and Data Science </h2>
+            <p>Learn about electrical circuits, power systems, and renewable energy.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+
+         <!-- Department 5  Content -->
+         <div class="course">
+            <h2>Mechanical Engineering</h2>
+            <p>Learn about electrical circuits, power systems, and renewable energy.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+
+         <!-- Department 6 Content -->
+         <div class="course">
+            <h2> Electronics and Communication Engineering</h2>
+            <p>Explore the fascinating world of electronics and communication engineering, where innovation meets connectivity.</p> 
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+         <!-- Department 7 Content -->
+         <div class="course">
+            <h2>Aeronautical Engineering</h2>
+            <p>Whether you dream of designing cutting-edge aircraft, working on space missions, or pushing the boundaries of aerospace technology, our Aeronautical Engineering program will equip you with the knowledge and skills needed to succeed in this dynamic and innovative field.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+         <!-- Department 8 Content -->
+         <div class="course">
+            <h2>Information Technology</h2>
+            <p>Discover the exciting world of Information Technology (IT) Engineering, where you'll explore cutting-edge technologies, software development, and network systems.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+         <!-- Department 9 Content -->
+         <div class="course">
+            <h2>Mechactronics Engineering</h2>
+            <p>Explore the interdisciplinary field of mechatronics engineering, which combines elements of mechanical engineering, electronics, computer science, and control engineering. Mechatronics engineers design and create intelligent systems and products that integrate mechanical components with electronics and software.</p>
+            <a href="#" class="show-semester">View Courses</a>
+        </div>
+        <!-- Add more department content as needed -->
+        
+       
+       
+       
+       
+       
+       
+        <!-- Semester Content -->
+        <div class="semester-content">
+            <!-- Semester 1 content goes here -->
+            <h2>Semester 1 Courses</h2>
+            
+            <div class="course">
+                <h2>Heritage of Tamil</h2>
+                <p>Click to view syllabus and information.</p>
+                <a href="#">View Syllabus</a>
+            </div>
+
+            <!-- Add more semester content as needed -->
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2023 E-Learning Platform
+    </footer>
+    
+    <script>
+        // JavaScript to toggle semester content
+        const showSemesterButtons = document.querySelectorAll('.show-semester');
+        showSemesterButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const semesterContent = event.target.parentElement.querySelector('.semester-content');
+                semesterContent.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+</html>
