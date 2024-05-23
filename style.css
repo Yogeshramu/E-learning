@@ -1,90 +1,113 @@
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f4c3, #b2ebf2);
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background-color: #53c3f3;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
+header {
+    background-color: #004d40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
-        h1 {
-            margin: 0;
-            font-size: 2em;
-        }
+header h1 {
+    color: white; /* Change text color to white */
+    margin: 0;
+    font-size: 2em;
+}
 
-        nav {
-            background-color: #0080ff;
-            color: #5e7b85;
-            text-align: center;
-            padding: 10px 0;
-        }
+nav {
+    flex: 1;
+    text-align: center;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
 
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
+nav a:hover {
+    text-decoration: underline;
+}
 
-        .course {
-            background-color: #f9f9f9;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-        }
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
 
-        .course h2 {
-            margin: 0;
-            font-size: 1.5em;
-        }
+.course {
+    background-color: #e0f2f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-        .course p {
-            margin: 10px 0;
-        }
+.course h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #004d40;
+}
 
-        .course a {
-            display: inline-block;
-            background-color: #007acc;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
+.course p {
+    margin: 10px 0;
+}
 
-        .course a:hover {
-            background-color: #005f8b;
-        }
+.course a {
+    display: inline-block;
+    background-color: #00796b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
-        .department-content {
-            display: none;
-        }
+.course a:hover {
+    background-color: #004d40;
+}
 
-        .semester-content {
-            display: none;
-        }
+.semester-content {
+    display: none;
+}
 
-        footer {
-            background-color: #FFFFFF;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
+footer {
+    background-color: #004d40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
 
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #d1c4e9;
+}
