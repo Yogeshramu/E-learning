@@ -1,0 +1,1 @@
+it is an sample website that can be similar to padeepz anna university application developed by a college student YOGESH R BTech-IIyear in NIET<img width="1709" alt="Screenshot 2024-05-23 at 11 37 59 PM" src="https://github.com/Bloodyidiot/E-learning/assets/144438667/14dd591f-6b8f-419e-9eb2-e810db92f153">
